@@ -13,7 +13,7 @@ function themeInfo(a){
  "pCost":false , // Paid Update Version Cost
  "pNew":false, // What is new paid version have ?
  };
-if ( info[a] != false || info[a] != undefined ) {
+if ( info[a] != false || info[a] != "undefined" ) {
  return info[a] }
  else {
  return false;
