@@ -13,9 +13,9 @@ function themeInfo(a){
  "pCost":false , // Paid Update Version Cost
  "pNew":false, // What is new paid version have ?
  };
-if ( info[a] == false ) {
- return false } 
+if ( info[a] != false || info[a] != undefined ) {
+ return info[a] }
  else {
- return info[a]
+ return false;
  }
 }
