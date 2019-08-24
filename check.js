@@ -15,9 +15,9 @@ function themeInfo(a) {
     };
     if (info[a] == false) {
         return false
-    } else if (info[a] != undefined) {
+    } else if (info[a] == undefined) {
         return false
     } else {
-        return false;
+        return info[a];
     }
 }
